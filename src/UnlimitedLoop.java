@@ -4,12 +4,12 @@ public class UnlimitedLoop {
     executeA();
   }
 
-  private static executeA() {
+  private static void executeA() {
     System.out.println("Hej");
     executeB();
   }
 
-  private static executeB() {
+  private static void executeB() {
     System.out.println("Sara");
     executeA();
   }
